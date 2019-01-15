@@ -12,12 +12,13 @@ ls -al
 
 ## Setting up aliases
 
-We'll divide the task into 5 simple steps:
-
 ### Step 1
 
 - Navigate to the User Directory where the **.bash_profile** file is located. 
-  Type: **cd ..** (until you get to the User directory, in case you aren't already)
+  Type:
+  ```
+  ~/.bash_profile
+  ```
   
 ### Step 2
 
@@ -48,14 +49,14 @@ alias gpm='git push origin master'
 
 ### Step 4 
 
-- To Save the changes, press **ctrl**+**o** and press **Enter** (Return).
+- To Save the changes, press **ctrl**+**o** and then press **Enter** (Return).
 - Next, press **ctrl**+**x** to Exit.
 
 ### Step 5
 - Note: If we're making any changes to the **.bash_profile** file, we need to compile the file.
 - To that, we just type:
 ```
-source .bash_profile
+source ~/.bash_profile
 ```
 
 That's it, you can start using the aliases now. Similarly, you can create aliases for anything you want.
